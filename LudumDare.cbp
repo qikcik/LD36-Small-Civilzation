@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="LudumDare" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/LudumDare" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O" />
+					<Add option="-std=c++11" />
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add library="sfml-graphics-d" />
+					<Add library="sfml-window-d" />
+					<Add library="sfml-system-d" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/LudumDare" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="sfml-graphics" />
+					<Add library="sfml-window" />
+					<Add library="sfml-system" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="D:/programowanie/SFML-2.4.0/include" />
+		</Compiler>
+		<Linker>
+			<Add library="mingw32" />
+			<Add library="user32" />
+			<Add library="gdi32" />
+			<Add library="winmm" />
+			<Add library="dxguid" />
+			<Add directory="D:/programowanie/SFML-2.4.0/lib" />
+		</Linker>
+		<Unit filename="cb.bmp" />
+		<Unit filename="include/Data.h" />
+		<Unit filename="include/Game.h" />
+		<Unit filename="include/Gui.h" />
+		<Unit filename="include/GuiBot.h" />
+		<Unit filename="include/GuiTop.h" />
+		<Unit filename="include/Map.h" />
+		<Unit filename="include/Menu.h" />
+		<Unit filename="include/Play.h" />
+		<Unit filename="include/Scena.h" />
+		<Unit filename="include/Tile.h" />
+		<Unit filename="include/TileBlank.h" />
+		<Unit filename="include/TileBlok.h" />
+		<Unit filename="include/TileCave.h" />
+		<Unit filename="include/TileDeiity2.h" />
+		<Unit filename="include/TileDeily1.h" />
+		<Unit filename="include/TileDeity.h" />
+		<Unit filename="include/TileDeity3.h" />
+		<Unit filename="include/TileDom.h" />
+		<Unit filename="include/TileFabryka.h" />
+		<Unit filename="include/TileKopalnia.h" />
+		<Unit filename="include/TileKrowa.h" />
+		<Unit filename="include/TileLumberjack.h" />
+		<Unit filename="include/TilePole.h" />
+		<Unit filename="include/TileQuarry.h" />
+		<Unit filename="include/TileRopa.h" />
+		<Unit filename="include/TileSzklarnia.h" />
+		<Unit filename="include/TileTree.h" />
+		<Unit filename="include/TileWoodenhouse.h" />
+		<Unit filename="include/Tilekamienie.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Data.cpp" />
+		<Unit filename="src/Game.cpp" />
+		<Unit filename="src/Gui.cpp" />
+		<Unit filename="src/GuiBot.cpp" />
+		<Unit filename="src/GuiTop.cpp" />
+		<Unit filename="src/Map.cpp" />
+		<Unit filename="src/Menu.cpp" />
+		<Unit filename="src/Play.cpp" />
+		<Unit filename="src/Scena.cpp" />
+		<Unit filename="src/Tile.cpp" />
+		<Unit filename="src/TileBlank.cpp" />
+		<Unit filename="src/TileBlok.cpp" />
+		<Unit filename="src/TileCave.cpp" />
+		<Unit filename="src/TileDeiity2.cpp" />
+		<Unit filename="src/TileDeily1.cpp" />
+		<Unit filename="src/TileDeity.cpp" />
+		<Unit filename="src/TileDeity3.cpp" />
+		<Unit filename="src/TileDom.cpp" />
+		<Unit filename="src/TileFabryka.cpp" />
+		<Unit filename="src/TileKopalnia.cpp" />
+		<Unit filename="src/TileKrowa.cpp" />
+		<Unit filename="src/TileLumberjack.cpp" />
+		<Unit filename="src/TilePole.cpp" />
+		<Unit filename="src/TileQuarry.cpp" />
+		<Unit filename="src/TileRopa.cpp" />
+		<Unit filename="src/TileSzklarnia.cpp" />
+		<Unit filename="src/TileTree.cpp" />
+		<Unit filename="src/TileWoodenhouse.cpp" />
+		<Unit filename="src/Tilekamienie.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
